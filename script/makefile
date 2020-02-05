@@ -6,3 +6,9 @@ download:
 
 action: 
 	node data.js
+
+server: 
+	cd ../hacker-law.com; hugo server --baseURL "http://localhost/" -D
+
+build:
+	cd ../hacker-law.com; hugo --minify

@@ -1,5 +1,5 @@
 
-Make sure you have **hugo**
+Make sure you have installed **hugo**
 
 clone this repo.
 ```
@@ -8,7 +8,7 @@ git clone https://github.com/1t1e1/hacker-laws-web.git
 
 for theme 
 ```
-git submodule add https://github.com/vimux/binario themes/binario
+git submodule update --init --recursive --remote
 ```
 
 to start the server
